@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --gunmetal: #2B2C41;
+    --orange: #FE734C;
+    --dark-orange:#d35330;
+    --cultured: #F5F4F9;
+    --maize: #FDC151;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-toggler {
+    border: 0;
+    color: var(--gunmetal);
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    color: var(--gunmetal);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-brand span {
+    color: var(--orange);
+}
+
+.nav-item a {
+    color: var(--gunmetal);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+
+.nav-item a:hover {
+    color: var(--orange);
+}
+
+.bi-bag-check,
+.bi-person {
+    font-size: 20px;
+    color: var(--gunmetal);
+    cursor: pointer;
+}
+
+.bi-bag-check:hover,
+.bi-person:hover {
+    color: var(--orange);
+}
+
+.btn .badge {
+    top: 5px;
+    background-color: var(--orange);
+}
+
+/* HERO */
+.hero {
+    background: url(./images/hamburger-2667441_1280.jpg) center/cover no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero p {
+    color: var(--orange);
+    font-size: 18px;
+    font-weight: 500px;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: var(--cultured);
+}
+
+.hero h1 span {
+    color: var(--orange);
+}
+
+.cta {
+    height: 40px;
+    width: 25%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: var(--cultured);
+    background-color: var(--orange);
+    transition: all 0.4s;
+}
+
+.cta:hover {
+    background-color: var(--dark-orange);
+}
+
+.line {
+    height: 6px;
+    width: 30%;
+    background-color: var(--orange);
+    display: inline-block;
+}
+
+/* MENU */
+.card {
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.card img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.add__item {
+    align-items: center;
+    justify-content: center;
+    color: var(--cultured);
+    background-color: var(--gunmetal);
+    padding: 4px 10px;
+}
+.add__item:hover {
+    color: var(--cultured);
+    background-color: var(--orange);
+}
+
+/* ABOUT */
+
+.about h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--gunmetal);
+}
+
+/* OFFERS */
+.offers {
+    background: url(./images/food-4188662_1280.jpg) center/cover no-repeat;
+}
+
+.offers .row {
+    height: 30vh;
+}
+
+.offers-content span {
+    font-size: 28px;
+}
+
+/* FOOTER */
+footer .brand {
+    color: var(--cultured);
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    font-style: normal;
+    text-decoration: none;
+}
+
+footer .brand span {
+    color: var(--orange);
+}
+
+footer a {
+    transform: color 0.3s ease;
+}
+
+footer a:hover  {
+    color: var(--orange) !important;
+}
